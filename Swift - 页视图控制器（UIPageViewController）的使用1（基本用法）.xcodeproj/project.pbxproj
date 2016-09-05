@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F521CA661D7D430B00228C38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F521CA651D7D430B00228C38 /* AppDelegate.swift */; };
+		F521CA681D7D430B00228C38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F521CA671D7D430B00228C38 /* ViewController.swift */; };
+		F521CA6B1D7D430B00228C38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F521CA691D7D430B00228C38 /* Main.storyboard */; };
+		F521CA6D1D7D430B00228C38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F521CA6C1D7D430B00228C38 /* Assets.xcassets */; };
+		F521CA701D7D430B00228C38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F521CA6E1D7D430B00228C38 /* LaunchScreen.storyboard */; };
+		F521CA7B1D7D430B00228C38 /* Swift__________UIPageViewController____1______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F521CA7A1D7D430B00228C38 /* Swift__________UIPageViewController____1______Tests.swift */; };
+		F521CA861D7D430B00228C38 /* Swift__________UIPageViewController____1______UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F521CA851D7D430B00228C38 /* Swift__________UIPageViewController____1______UITests.swift */; };
+		F521CA941D7D434000228C38 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F521CA931D7D434000228C38 /* PageViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F521CA771D7D430B00228C38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F521CA5A1D7D430A00228C38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F521CA611D7D430A00228C38;
+			remoteInfo = "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）";
+		};
+		F521CA821D7D430B00228C38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F521CA5A1D7D430A00228C38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F521CA611D7D430A00228C38;
+			remoteInfo = "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F521CA621D7D430A00228C38 /* Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F521CA651D7D430B00228C38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F521CA671D7D430B00228C38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F521CA6A1D7D430B00228C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F521CA6C1D7D430B00228C38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F521CA6F1D7D430B00228C38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F521CA711D7D430B00228C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F521CA761D7D430B00228C38 /* Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F521CA7A1D7D430B00228C38 /* Swift__________UIPageViewController____1______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift__________UIPageViewController____1______Tests.swift"; sourceTree = "<group>"; };
+		F521CA7C1D7D430B00228C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F521CA811D7D430B00228C38 /* Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F521CA851D7D430B00228C38 /* Swift__________UIPageViewController____1______UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Swift__________UIPageViewController____1______UITests.swift"; sourceTree = "<group>"; };
+		F521CA871D7D430B00228C38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F521CA931D7D434000228C38 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F521CA5F1D7D430A00228C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F521CA731D7D430B00228C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F521CA7E1D7D430B00228C38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F521CA591D7D430A00228C38 = {
+			isa = PBXGroup;
+			children = (
+				F521CA641D7D430B00228C38 /* Swift - 页视图控制器（UIPageViewController）的使用1（基本用法） */,
+				F521CA791D7D430B00228C38 /* Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）Tests */,
+				F521CA841D7D430B00228C38 /* Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）UITests */,
+				F521CA631D7D430A00228C38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F521CA631D7D430A00228C38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F521CA621D7D430A00228C38 /* Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）.app */,
+				F521CA761D7D430B00228C38 /* Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）Tests.xctest */,
+				F521CA811D7D430B00228C38 /* Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F521CA641D7D430B00228C38 /* Swift - 页视图控制器（UIPageViewController）的使用1（基本用法） */ = {
+			isa = PBXGroup;
+			children = (
+				F521CA651D7D430B00228C38 /* AppDelegate.swift */,
+				F521CA671D7D430B00228C38 /* ViewController.swift */,
+				F521CA931D7D434000228C38 /* PageViewController.swift */,
+				F521CA691D7D430B00228C38 /* Main.storyboard */,
+				F521CA6C1D7D430B00228C38 /* Assets.xcassets */,
+				F521CA6E1D7D430B00228C38 /* LaunchScreen.storyboard */,
+				F521CA711D7D430B00228C38 /* Info.plist */,
+			);
+			path = "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）";
+			sourceTree = "<group>";
+		};
+		F521CA791D7D430B00228C38 /* Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F521CA7A1D7D430B00228C38 /* Swift__________UIPageViewController____1______Tests.swift */,
+				F521CA7C1D7D430B00228C38 /* Info.plist */,
+			);
+			path = "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）Tests";
+			sourceTree = "<group>";
+		};
+		F521CA841D7D430B00228C38 /* Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F521CA851D7D430B00228C38 /* Swift__________UIPageViewController____1______UITests.swift */,
+				F521CA871D7D430B00228C38 /* Info.plist */,
+			);
+			path = "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F521CA611D7D430A00228C38 /* Swift - 页视图控制器（UIPageViewController）的使用1（基本用法） */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F521CA8A1D7D430B00228C38 /* Build configuration list for PBXNativeTarget "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）" */;
+			buildPhases = (
+				F521CA5E1D7D430A00228C38 /* Sources */,
+				F521CA5F1D7D430A00228C38 /* Frameworks */,
+				F521CA601D7D430A00228C38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）";
+			productName = "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）";
+			productReference = F521CA621D7D430A00228C38 /* Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F521CA751D7D430B00228C38 /* Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F521CA8D1D7D430B00228C38 /* Build configuration list for PBXNativeTarget "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）Tests" */;
+			buildPhases = (
+				F521CA721D7D430B00228C38 /* Sources */,
+				F521CA731D7D430B00228C38 /* Frameworks */,
+				F521CA741D7D430B00228C38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F521CA781D7D430B00228C38 /* PBXTargetDependency */,
+			);
+			name = "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）Tests";
+			productName = "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）Tests";
+			productReference = F521CA761D7D430B00228C38 /* Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F521CA801D7D430B00228C38 /* Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F521CA901D7D430B00228C38 /* Build configuration list for PBXNativeTarget "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）UITests" */;
+			buildPhases = (
+				F521CA7D1D7D430B00228C38 /* Sources */,
+				F521CA7E1D7D430B00228C38 /* Frameworks */,
+				F521CA7F1D7D430B00228C38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F521CA831D7D430B00228C38 /* PBXTargetDependency */,
+			);
+			name = "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）UITests";
+			productName = "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）UITests";
+			productReference = F521CA811D7D430B00228C38 /* Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F521CA5A1D7D430A00228C38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "道标朱";
+				TargetAttributes = {
+					F521CA611D7D430A00228C38 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F521CA751D7D430B00228C38 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F521CA611D7D430A00228C38;
+					};
+					F521CA801D7D430B00228C38 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F521CA611D7D430A00228C38;
+					};
+				};
+			};
+			buildConfigurationList = F521CA5D1D7D430A00228C38 /* Build configuration list for PBXProject "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F521CA591D7D430A00228C38;
+			productRefGroup = F521CA631D7D430A00228C38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F521CA611D7D430A00228C38 /* Swift - 页视图控制器（UIPageViewController）的使用1（基本用法） */,
+				F521CA751D7D430B00228C38 /* Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）Tests */,
+				F521CA801D7D430B00228C38 /* Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F521CA601D7D430A00228C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F521CA701D7D430B00228C38 /* LaunchScreen.storyboard in Resources */,
+				F521CA6D1D7D430B00228C38 /* Assets.xcassets in Resources */,
+				F521CA6B1D7D430B00228C38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F521CA741D7D430B00228C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F521CA7F1D7D430B00228C38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F521CA5E1D7D430A00228C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F521CA941D7D434000228C38 /* PageViewController.swift in Sources */,
+				F521CA681D7D430B00228C38 /* ViewController.swift in Sources */,
+				F521CA661D7D430B00228C38 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F521CA721D7D430B00228C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F521CA7B1D7D430B00228C38 /* Swift__________UIPageViewController____1______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F521CA7D1D7D430B00228C38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F521CA861D7D430B00228C38 /* Swift__________UIPageViewController____1______UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F521CA781D7D430B00228C38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F521CA611D7D430A00228C38 /* Swift - 页视图控制器（UIPageViewController）的使用1（基本用法） */;
+			targetProxy = F521CA771D7D430B00228C38 /* PBXContainerItemProxy */;
+		};
+		F521CA831D7D430B00228C38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F521CA611D7D430A00228C38 /* Swift - 页视图控制器（UIPageViewController）的使用1（基本用法） */;
+			targetProxy = F521CA821D7D430B00228C38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F521CA691D7D430B00228C38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F521CA6A1D7D430B00228C38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F521CA6E1D7D430B00228C38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F521CA6F1D7D430B00228C38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F521CA881D7D430B00228C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F521CA891D7D430B00228C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F521CA8B1D7D430B00228C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift----------UIPageViewController----1------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F521CA8C1D7D430B00228C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift----------UIPageViewController----1------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F521CA8E1D7D430B00228C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift----------UIPageViewController----1------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）.app/Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）";
+			};
+			name = Debug;
+		};
+		F521CA8F1D7D430B00228C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift----------UIPageViewController----1------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）.app/Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）";
+			};
+			name = Release;
+		};
+		F521CA911D7D430B00228C38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift----------UIPageViewController----1------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）";
+			};
+			name = Debug;
+		};
+		F521CA921D7D430B00228C38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Swift----------UIPageViewController----1------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F521CA5D1D7D430A00228C38 /* Build configuration list for PBXProject "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F521CA881D7D430B00228C38 /* Debug */,
+				F521CA891D7D430B00228C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F521CA8A1D7D430B00228C38 /* Build configuration list for PBXNativeTarget "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F521CA8B1D7D430B00228C38 /* Debug */,
+				F521CA8C1D7D430B00228C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F521CA8D1D7D430B00228C38 /* Build configuration list for PBXNativeTarget "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F521CA8E1D7D430B00228C38 /* Debug */,
+				F521CA8F1D7D430B00228C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F521CA901D7D430B00228C38 /* Build configuration list for PBXNativeTarget "Swift - 页视图控制器（UIPageViewController）的使用1（基本用法）UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F521CA911D7D430B00228C38 /* Debug */,
+				F521CA921D7D430B00228C38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F521CA5A1D7D430A00228C38 /* Project object */;
+}
